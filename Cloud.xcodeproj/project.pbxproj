@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82457F221C3430DC00B842B4 /* WeekWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82457F211C3430DC00B842B4 /* WeekWeatherView.swift */; };
 		82AF52B61C329F060036F113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF52B51C329F060036F113 /* AppDelegate.swift */; };
 		82AF52B81C329F060036F113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF52B71C329F060036F113 /* ViewController.swift */; };
 		82AF52BB1C329F060036F113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AF52B91C329F060036F113 /* Main.storyboard */; };
@@ -14,6 +15,24 @@
 		82AF52C01C329F060036F113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AF52BE1C329F060036F113 /* LaunchScreen.storyboard */; };
 		82AF52CB1C329F060036F113 /* CloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF52CA1C329F060036F113 /* CloudTests.swift */; };
 		82AF52D61C329F060036F113 /* CloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF52D51C329F060036F113 /* CloudUITests.swift */; };
+		82AF53011C32BCD00036F113 /* weatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF53001C32BCD00036F113 /* weatherInfo.swift */; };
+		82B807011C33C045009F1BD8 /* AppStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B807001C33C045009F1BD8 /* AppStatus.swift */; };
+		82BD73901C3511A9009A1447 /* HourWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BD738F1C3511A9009A1447 /* HourWeather.swift */; };
+		82BD73921C3511E2009A1447 /* HourBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BD73911C3511E2009A1447 /* HourBezierPath.swift */; };
+		82D174E01C36C8AB00F83F4F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D174B51C36C2E400F83F4F /* NotificationCenter.framework */; };
+		82D174E31C36C8AB00F83F4F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D174E21C36C8AB00F83F4F /* TodayViewController.swift */; };
+		82D174EA1C36C8AB00F83F4F /* Clouds.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82D174DF1C36C8AB00F83F4F /* Clouds.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82D174EF1C36C8D600F83F4F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D174EE1C36C8D600F83F4F /* MainInterface.storyboard */; };
+		82D175061C37A79200F83F4F /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D175051C37A79200F83F4F /* WeatherCell.swift */; };
+		82D1750C1C37B3A600F83F4F /* AppStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1750B1C37B3A600F83F4F /* AppStatus.swift */; };
+		82D1750E1C37B3DA00F83F4F /* HourBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1750D1C37B3DA00F83F4F /* HourBezierPath.swift */; };
+		82D175171C37B51400F83F4F /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D175111C37B51400F83F4F /* HTTPSecurity.swift */; };
+		82D175181C37B51400F83F4F /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D175121C37B51400F83F4F /* Operation.swift */; };
+		82D175191C37B51400F83F4F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D175131C37B51400F83F4F /* Request.swift */; };
+		82D1751A1C37B51400F83F4F /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D175141C37B51400F83F4F /* StatusCode.swift */; };
+		82D1751B1C37B51400F83F4F /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D175161C37B51400F83F4F /* Upload.swift */; };
+		82D1751E1C37B51F00F83F4F /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1751D1C37B51F00F83F4F /* JSONJoy.swift */; };
+		82D1752D1C37C8D500F83F4F /* HourWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BD738F1C3511A9009A1447 /* HourWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +50,31 @@
 			remoteGlobalIDString = 82AF52B11C329F060036F113;
 			remoteInfo = Cloud;
 		};
+		82D174E81C36C8AB00F83F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AF52AA1C329F060036F113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D174DE1C36C8AB00F83F4F;
+			remoteInfo = Clouds;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		82D174C41C36C2E400F83F4F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82D174EA1C36C8AB00F83F4F /* Clouds.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		82457F211C3430DC00B842B4 /* WeekWeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekWeatherView.swift; sourceTree = "<group>"; };
 		82AF52B21C329F060036F113 /* Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AF52B51C329F060036F113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AF52B71C329F060036F113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +88,28 @@
 		82AF52D11C329F060036F113 /* CloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AF52D51C329F060036F113 /* CloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudUITests.swift; sourceTree = "<group>"; };
 		82AF52D71C329F060036F113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AF53001C32BCD00036F113 /* weatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherInfo.swift; sourceTree = "<group>"; };
+		82B807001C33C045009F1BD8 /* AppStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStatus.swift; sourceTree = "<group>"; };
+		82BD738F1C3511A9009A1447 /* HourWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourWeather.swift; path = ../HourWeather.swift; sourceTree = "<group>"; };
+		82BD73911C3511E2009A1447 /* HourBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourBezierPath.swift; sourceTree = "<group>"; };
+		82D174B51C36C2E400F83F4F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		82D174DF1C36C8AB00F83F4F /* Clouds.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Clouds.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D174E21C36C8AB00F83F4F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		82D174E71C36C8AB00F83F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D174EE1C36C8D600F83F4F /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		82D175031C37A69600F83F4F /* Clouds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Clouds.entitlements; sourceTree = "<group>"; };
+		82D175041C37A6C900F83F4F /* Cloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Cloud.entitlements; sourceTree = "<group>"; };
+		82D175051C37A79200F83F4F /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		82D1750B1C37B3A600F83F4F /* AppStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStatus.swift; sourceTree = "<group>"; };
+		82D1750D1C37B3DA00F83F4F /* HourBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourBezierPath.swift; sourceTree = "<group>"; };
+		82D175111C37B51400F83F4F /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
+		82D175121C37B51400F83F4F /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		82D175131C37B51400F83F4F /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		82D175141C37B51400F83F4F /* StatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCode.swift; sourceTree = "<group>"; };
+		82D175151C37B51400F83F4F /* SwiftHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftHTTP.h; sourceTree = "<group>"; };
+		82D175161C37B51400F83F4F /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		82D1751C1C37B51F00F83F4F /* JSONJoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONJoy.h; sourceTree = "<group>"; };
+		82D1751D1C37B51F00F83F4F /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +134,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82D174DC1C36C8AB00F83F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D174E01C36C8AB00F83F4F /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +151,8 @@
 				82AF52B41C329F060036F113 /* Cloud */,
 				82AF52C91C329F060036F113 /* CloudTests */,
 				82AF52D41C329F060036F113 /* CloudUITests */,
+				82D174E11C36C8AB00F83F4F /* Clouds */,
+				82D174B41C36C2E400F83F4F /* Frameworks */,
 				82AF52B31C329F060036F113 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +163,7 @@
 				82AF52B21C329F060036F113 /* Cloud.app */,
 				82AF52C61C329F060036F113 /* CloudTests.xctest */,
 				82AF52D11C329F060036F113 /* CloudUITests.xctest */,
+				82D174DF1C36C8AB00F83F4F /* Clouds.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +171,15 @@
 		82AF52B41C329F060036F113 /* Cloud */ = {
 			isa = PBXGroup;
 			children = (
+				82D175041C37A6C900F83F4F /* Cloud.entitlements */,
+				82BD738F1C3511A9009A1447 /* HourWeather.swift */,
+				82BD73911C3511E2009A1447 /* HourBezierPath.swift */,
+				82AF52FF1C32BC1F0036F113 /* HttpRequest */,
 				82AF52B51C329F060036F113 /* AppDelegate.swift */,
 				82AF52B71C329F060036F113 /* ViewController.swift */,
+				82B807001C33C045009F1BD8 /* AppStatus.swift */,
+				82AF53001C32BCD00036F113 /* weatherInfo.swift */,
+				82457F211C3430DC00B842B4 /* WeekWeatherView.swift */,
 				82AF52B91C329F060036F113 /* Main.storyboard */,
 				82AF52BC1C329F060036F113 /* Assets.xcassets */,
 				82AF52BE1C329F060036F113 /* LaunchScreen.storyboard */,
@@ -125,6 +206,43 @@
 			path = CloudUITests;
 			sourceTree = "<group>";
 		};
+		82AF52FF1C32BC1F0036F113 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				82D1751C1C37B51F00F83F4F /* JSONJoy.h */,
+				82D1751D1C37B51F00F83F4F /* JSONJoy.swift */,
+				82D175111C37B51400F83F4F /* HTTPSecurity.swift */,
+				82D175121C37B51400F83F4F /* Operation.swift */,
+				82D175131C37B51400F83F4F /* Request.swift */,
+				82D175141C37B51400F83F4F /* StatusCode.swift */,
+				82D175151C37B51400F83F4F /* SwiftHTTP.h */,
+				82D175161C37B51400F83F4F /* Upload.swift */,
+			);
+			name = HttpRequest;
+			sourceTree = "<group>";
+		};
+		82D174B41C36C2E400F83F4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82D174B51C36C2E400F83F4F /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82D174E11C36C8AB00F83F4F /* Clouds */ = {
+			isa = PBXGroup;
+			children = (
+				82D175031C37A69600F83F4F /* Clouds.entitlements */,
+				82D174EE1C36C8D600F83F4F /* MainInterface.storyboard */,
+				82D174E21C36C8AB00F83F4F /* TodayViewController.swift */,
+				82D175051C37A79200F83F4F /* WeatherCell.swift */,
+				82D174E71C36C8AB00F83F4F /* Info.plist */,
+				82D1750B1C37B3A600F83F4F /* AppStatus.swift */,
+				82D1750D1C37B3DA00F83F4F /* HourBezierPath.swift */,
+			);
+			path = Clouds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +253,12 @@
 				82AF52AE1C329F060036F113 /* Sources */,
 				82AF52AF1C329F060036F113 /* Frameworks */,
 				82AF52B01C329F060036F113 /* Resources */,
+				82D174C41C36C2E400F83F4F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				82D174E91C36C8AB00F83F4F /* PBXTargetDependency */,
 			);
 			name = Cloud;
 			productName = Cloud;
@@ -181,6 +301,23 @@
 			productReference = 82AF52D11C329F060036F113 /* CloudUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		82D174DE1C36C8AB00F83F4F /* Clouds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D174EB1C36C8AB00F83F4F /* Build configuration list for PBXNativeTarget "Clouds" */;
+			buildPhases = (
+				82D174DB1C36C8AB00F83F4F /* Sources */,
+				82D174DC1C36C8AB00F83F4F /* Frameworks */,
+				82D174DD1C36C8AB00F83F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clouds;
+			productName = Clouds;
+			productReference = 82D174DF1C36C8AB00F83F4F /* Clouds.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +330,33 @@
 				TargetAttributes = {
 					82AF52B11C329F060036F113 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5XQ8B3L3WA;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					82AF52C51C329F060036F113 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 82AF52B11C329F060036F113;
 					};
 					82AF52D01C329F060036F113 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 82AF52B11C329F060036F113;
+					};
+					82D174DE1C36C8AB00F83F4F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5XQ8B3L3WA;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -220,6 +376,7 @@
 				82AF52B11C329F060036F113 /* Cloud */,
 				82AF52C51C329F060036F113 /* CloudTests */,
 				82AF52D01C329F060036F113 /* CloudUITests */,
+				82D174DE1C36C8AB00F83F4F /* Clouds */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +406,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82D174DD1C36C8AB00F83F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D174EF1C36C8D600F83F4F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,7 +421,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D1751E1C37B51F00F83F4F /* JSONJoy.swift in Sources */,
+				82D1751B1C37B51400F83F4F /* Upload.swift in Sources */,
+				82457F221C3430DC00B842B4 /* WeekWeatherView.swift in Sources */,
+				82D1751A1C37B51400F83F4F /* StatusCode.swift in Sources */,
+				82BD73901C3511A9009A1447 /* HourWeather.swift in Sources */,
+				82B807011C33C045009F1BD8 /* AppStatus.swift in Sources */,
 				82AF52B81C329F060036F113 /* ViewController.swift in Sources */,
+				82AF53011C32BCD00036F113 /* weatherInfo.swift in Sources */,
+				82D175181C37B51400F83F4F /* Operation.swift in Sources */,
+				82D175171C37B51400F83F4F /* HTTPSecurity.swift in Sources */,
+				82D175191C37B51400F83F4F /* Request.swift in Sources */,
+				82BD73921C3511E2009A1447 /* HourBezierPath.swift in Sources */,
 				82AF52B61C329F060036F113 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +453,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82D174DB1C36C8AB00F83F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1750C1C37B3A600F83F4F /* AppStatus.swift in Sources */,
+				82D175061C37A79200F83F4F /* WeatherCell.swift in Sources */,
+				82D1752D1C37C8D500F83F4F /* HourWeather.swift in Sources */,
+				82D174E31C36C8AB00F83F4F /* TodayViewController.swift in Sources */,
+				82D1750E1C37B3DA00F83F4F /* HourBezierPath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +477,11 @@
 			isa = PBXTargetDependency;
 			target = 82AF52B11C329F060036F113 /* Cloud */;
 			targetProxy = 82AF52D21C329F060036F113 /* PBXContainerItemProxy */;
+		};
+		82D174E91C36C8AB00F83F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D174DE1C36C8AB00F83F4F /* Clouds */;
+			targetProxy = 82D174E81C36C8AB00F83F4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,10 +592,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cloud/Cloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5XQ8B3L3WA;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Cloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.Cloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -410,10 +610,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cloud/Cloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5XQ8B3L3WA;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Cloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.Cloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +632,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.CloudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud.app/Cloud";
 			};
 			name = Debug;
@@ -437,6 +645,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.CloudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud.app/Cloud";
 			};
 			name = Release;
@@ -448,6 +657,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.CloudUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Cloud;
 				USES_XCTRUNNER = YES;
 			};
@@ -460,8 +670,41 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.CloudUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Cloud;
 				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		82D174EC1C36C8AB00F83F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Clouds/Clouds.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Clouds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.Cloud.Clouds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		82D174ED1C36C8AB00F83F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Clouds/Clouds.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Clouds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.Cloud.Clouds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -484,6 +727,7 @@
 				82AF52DC1C329F060036F113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82AF52DD1C329F060036F113 /* Build configuration list for PBXNativeTarget "CloudTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +736,7 @@
 				82AF52DF1C329F060036F113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82AF52E01C329F060036F113 /* Build configuration list for PBXNativeTarget "CloudUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +745,16 @@
 				82AF52E21C329F060036F113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D174EB1C36C8AB00F83F4F /* Build configuration list for PBXNativeTarget "Clouds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D174EC1C36C8AB00F83F4F /* Debug */,
+				82D174ED1C36C8AB00F83F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

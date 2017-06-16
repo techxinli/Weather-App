@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Clouds.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>a.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +33,26 @@
 			<true/>
 		</dict>
 		<key>82AF52D01C329F060036F113</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82D174B21C36C2E400F83F4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82D174CA1C36C74B00F83F4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82D174DE1C36C8AB00F83F4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82D174F31C36CD1C00F83F4F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
